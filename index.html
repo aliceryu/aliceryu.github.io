@@ -1,1 +1,610 @@
-Portfolio Site By Alice Ryu
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Reset iPhone Viewport & Initial Scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>톡톡튀는 아이디어, 따뜻한 감성을 가진 디자이너 류현정입니다</title>
+<style>
+
+#wrap{
+	width:100%;
+	height:100%;
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box; 
+	padding:0px; 
+	overflow:auto;
+	}
+	
+.index{
+	position:absolute;
+	height:100%; 
+	width:1800px; 
+	left:50%;
+	margin-left:-900px; 
+	padding:0px;}
+	
+	
+*{padding:0; margin:0; }
+section{padding:0; margin:0;}
+ul,li{padding:0; margin:0;}
+body{margin:0; left:0; top:0; width:1800px; height:1100px; list-style:none;
+ background-image:url('');
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background:url(images/bg.jpg) no-repeat fixed;}
+ 
+#mobile{position:fixed; top:133px; left:268px; height:809px;  width:548px;}
+
+#content{position:absolute; top: 160px; left: 956px; height:600px; width:900px;}
+
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 70px;
+	top:250px;
+	z-index: 9999;
+}
+
+#nav li{
+	margin: 0 0 20px 0;	
+	z-index: 9999;
+}
+
+#nav li a {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background-color: white;
+	border: solid 2px white;
+}
+
+#nav li a.current {
+	background-color: deeppink;
+}
+
+#hello{
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0;
+	z-index: 999;
+}
+
+#first{
+	color: black;
+	height: 2300px;
+	margin: 0;
+	padding: 0;
+	z-index: 888;
+}
+
+#second{
+	color: black;
+	height: 2300px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: 777;
+}
+
+
+
+#third{
+	color: black;
+	height: 2300px;
+	padding: 0px 0 0 0;	
+	margin: 0;
+	z-index: 666;
+}
+
+
+#fourth{
+	color: black;
+	height: 2300px;
+	padding: 0px 0 0 0;	
+	z-index: 555;
+}
+
+
+#fifth{
+	color: black;
+	height: 2400px;
+	padding: 0px 0 0 0;	
+	z-index: 444;
+}
+
+
+#sixth{
+	color: black;
+	height: 2000px;
+	padding: 0px 0 0 0;	
+	z-index: 333;
+}
+
+
+#seventh{
+	color: black;
+	height: 2000px;
+	padding: 0px 0 0 0;	
+	z-index: 222;
+}
+
+
+#eighth{
+	color: black;
+	height: 2600px;
+	padding: 0px 0 0 0;	
+	z-index: 111;
+}
+
+
+#ninth{
+	color: black;
+	height: 3000px;
+	padding: 0px 0 0 0;	
+	z-index: 100;
+}
+
+
+#tenth{
+	color: black;
+	height: 2000px;
+	padding: 0px 0 0 0;	
+	z-index: 99;
+}
+
+
+#eleventh{
+	color: black;
+	height: 2000px;
+	padding: 0px 0 0 0;	
+	z-index: 98;
+}
+
+
+
+
+
+#icon li{list-style:none;}
+#icon li.coocha{position:fixed; top:280px; left:469px; width:70px; height:91px;}
+#icon li.gagrine{position:fixed; top:278px; left:556px; width:70px; height:91px;}
+#icon li.cityhall{position:fixed; top:275px; left:643px; width:68px; height:91px;}
+
+#icon li.project{position:fixed; top:395px; left:472px; width:70px; height:87px;}
+#icon li.meritz{position:fixed; top:393px; left:560px; width:70px; height:87px;}
+#icon li.unicef{position:fixed; top:390px; left:648px; width:68px; height:87px;}
+
+#icon li.onell{position:fixed; top:511px; left:476px; width:75px; height:84px;}
+#icon li.contest{position:fixed; top:509px; left:559px; width:83px; height:84px;}
+#icon li.dvd{position:fixed; top:506px; left:651px; width:68px; height:86px;} 
+
+#icon li.namecard{position:fixed; top:655px; left:478px; width:75px; height:84px;}
+#icon li.drawing{position:fixed; top:652px; left:568px; width:70px; height:91px;}
+#icon li.introduce{position:fixed; top:650px; left:655px; width:68px; height:91px;}
+
+
+
+#head li{list-style:none;}
+#head li.home{position:fixed; top:11px; left:395px;}
+#head li.intro{position:fixed; top:35px; left:467px;}
+#head li.contact{position:fixed; top:35px; left:593px;}
+#head li.facebook{position:fixed; top:26px; left:1621px;} 
+#head li.myblog{position:fixed; top:26px; left:1659px;}
+
+#hello ul{overflow:hidden; list-style:none; width:659px; height:679px;}
+#hello li{float:left; margin:0px; display:block;}
+#hello li.title{width:659px; height:97px; float:left; margin:0px;}
+#hello li.side{width:50px; height:315px; float:left; margin:0px}
+#hello li.movie{width:560px; height:315px; margin:0px}
+#hello li.side2{width:49px; height:315px; float:left; margin:0px}
+	
+	
+
+ul,li{list-style:none; margin:0; padding:0;}
+*{margin:0; padding:0;}
+a,img{border:none;}		
+
+
+</style>
+<script src="scripts/jquery-1.8.2.min.js"></script>
+<script src="scripts/jquery.scrollTo-1.4.3.1.min.js"></script>
+<script src="scripts/jquery.scrollorama.js"></script>
+<script src="scripts/jquery.easing.1.3.js"></script>
+<script src="scripts/jquery.scrolldeck.js"></script>
+<script type="text/javascript" src="scripts/dist/jquery.imagemapster.js"></script>
+<script type="text/javascript">
+
+
+	$(document).ready(function () {
+		var deck = new $.scrolldeck({
+			buttons: '.nav-button',
+			slides: '.mslide',
+			duration: 600,
+			offset: -100
+		});
+		
+		$('img#Image0').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/hello_over.png'
+			}
+		});
+		
+	
+		
+		$('img#Image1').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/coocha_over.png'
+			}
+		});
+		
+		 
+		$('img#Image2').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/gagrine_over.png'
+			}
+		});
+		
+		$('img#Image3').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/cityhall_over.png'
+			}
+		});
+		
+		$('img#Image4').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/project_over.png'
+			}
+		});
+		
+		$('img#Image5').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/meritz_over.png'
+			}
+		});
+		
+		
+		$('img#Image6').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/unicef_over.png'
+			}
+		});
+		
+		
+		$('img#Image7').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/onell_over.png'
+			}
+		});
+		
+		$('img#Image8').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/contest_over.png'
+			}
+		});
+		
+		$('img#Image9').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/dvd_over.png'
+			}
+		});
+		
+		$('img#Image10').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/namecard_over.png'
+			}
+		});
+		
+		$('img#Image11').mapster({
+			isSelectable: false,
+			fillOpacity: 1,
+			render_highlight: {
+				stroke: false,
+				altImage: 'images/drawing_over.png'
+			}
+		});
+		
+		
+		
+		
+		
+		$("ul#icons a").click(function(e){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+			}, 300);
+			return false;
+		});
+		$("li.home a").click(function(e){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+			}, 300);
+			return false;
+		});
+		$("li.contact a").click(function(e){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+			}, 300);
+			return false;
+		});
+		
+		
+		$("img#Image10 a").click(function(e){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+			}, 300);
+			return false;
+		});
+	});
+</script>
+
+
+
+</head>
+<body>
+	<div id="wrap" >
+
+	 <div id="head">
+     	<ul id=" header">
+        	<li class="home"><a href="#hello"><img src="images/head/home.png" onMouseOver="this.src='images/head/home_over.png'" onMouseOut="this.src='images/head/home.png'"/></a></li>
+            <li class="contact"><a href="#hello"><img src="images/head/contact.png" onMouseOver="this.src='images/head/contact_over1.png'" onMouseOut="this.src='images/head/contact.png'"/></a></li>
+            <li class="intro"><a href="introduce.html" target="_blank"><img src="images/head/introduce.png" onMouseOver="this.src='images/head/introduce_over.png'" onMouseOut="this.src='images/head/introduce.png'"/></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/dolphindol331" target="_blank"><img src="images/head/facebook.png" onMouseOver="this.src='images/head/facebook_over.png'" onMouseOut="this.src='images/head/facebook.png'"/></a></li>
+            <li class="myblog"><a href="http://blog.naver.com/dolphindol" target="_blank"><img src="images/head/blog.png" onMouseOver="this.src='images/head/blog_over.png'" onMouseOut="this.src='images/head/blog.png'"/></a></li>
+            	
+     </ul>
+     </div>           
+            
+     <div id="icon">
+     	<ul id="icons">
+        	<li class="coocha"><a href="#first"><img src="images/icon/icon_01.png" onMouseOver="this.src='images/icon/icon_01_over.png'" onMouseOut="this.src='images/icon/icon_01.png'" /></a></li>
+            <li class="gagrine"><a href="#second"><img src="images/icon/icon_02.png" onMouseOver="this.src='images/icon/icon_02_over.png'" onMouseOut="this.src='images/icon/icon_02.png'"/></a></li>
+            <li class="cityhall"><a href="#third"><img src="images/icon/icon_03.png" onMouseOver="this.src='images/icon/icon_03_over.png'" onMouseOut="this.src='images/icon/icon_03.png'"/></a></li>
+            <li class="project"><a href="#fourth"><img src="images/icon/icon_04.png" onMouseOver="this.src='images/icon/icon_04_over.png'" onMouseOut="this.src='images/icon/icon_04.png'"/></a></li>
+            <li class="meritz"><a href="#fifth"><img src="images/icon/icon_05.png" onMouseOver="this.src='images/icon/icon_05_over.png'" onMouseOut="this.src='images/icon/icon_05.png'"/></a></li>
+            <li class="unicef"><a href="#sixth"><img src="images/icon/icon_06.png" onMouseOver="this.src='images/icon/icon_06_over.png'" onMouseOut="this.src='images/icon/icon_06.png'"/></a></li>
+            <li class="onell"><a href="#seventh"><img src="images/icon/icon_07.png" onMouseOver="this.src='images/icon/icon_07_over.png'" onMouseOut="this.src='images/icon/icon_07.png'"/></a></li>
+            <li class="contest"><a href="#eighth"><img src="images/icon/icon_08.png" onMouseOver="this.src='images/icon/icon_08_over.png'" onMouseOut="this.src='images/icon/icon_08.png'"/></a></li>
+            <li class="dvd"><a href="#ninth"><img src="images/icon/icon_09.png" onMouseOver="this.src='images/icon/icon_09_over.png'" onMouseOut="this.src='images/icon/icon_09.png'"/></a></li>
+            <li class="namecard"><a href="#tenth"><img src="images/icon/icon_10.png" onMouseOver="this.src='images/icon/icon_10_over.png'" onMouseOut="this.src='images/icon/icon_10.png'"/></a></li>
+            <li class="drawing"><a href="#eleventh"><img src="images/icon/icon_11.png" onMouseOver="this.src='images/icon/icon_11_over.png'" onMouseOut="this.src='images/icon/icon_11.png'"/></a></li>
+			<li class="introduce"><a href="introduce.html" target="_blank"><img src="images/icon/icon_12.png" onMouseOver="this.src='images/icon/icon_12_over.png'" onMouseOut="this.src='images/icon/icon_12.png'"/></a></li>
+     	</ul>
+      </div>
+      
+      
+      
+<div id="content">
+		<ul id="nav">
+        	<li><a href="#hello" class="nav-button" title="Next Section"></a></li>
+			<li><a href="#first" class="nav-button" title="Next Section"></a></li>
+			<li><a href="#second" class="nav-button" title="Next Section"></a></li>
+			<li><a href="#third" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#fourth" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#fifth" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#sixth" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#seventh" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#eighth" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#ninth" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#tenth" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#eleventh" class="nav-button" title="Next Section"></a></li>
+            <li><a href="#twelveth" class="nav-button" title="Next Section"></a></li>
+  		</ul>
+
+
+
+
+
+    <div id="hello" class="mslide">
+ 		<ul class="hello_1">
+        	<li class="title"><img src="images/hello/hello_01.png"></li>
+            <li class="side"><img src="images/hello/hello_02.png" ></li>
+            <li class="movie"><iframe width="560" height="315" src="//www.youtube.com/embed/UerJPsRAxeA?feature=player_detailpage&vq=hd720&autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe></li>
+            <li class="side2"><img src="images/hello/hello_04.png"></li>
+            <li class="name"><img src="images/hello/hello_05.png" border="0" usemap="#Map0" id="Image0">
+            	<map name="Map0" id="Image0">
+			  		<area shape="rect" coords="50,179,209,229" href="#" onClick="javascript:window.open('introduce.html','','width=2000 height=1000,scrollbars=no,resizable=no'); return false" target="_blank" style="outline:0;" >
+                    <area shape="rect" coords="230,179,311,229" href="#" onClick="javascript:window.open('http://blog.naver.com/dolphindol','','width=2000 height=1000,scrollbars=yes,resizable=no'); return false" target="_blank" style="outline:0;" >
+            	</map>
+          </li>
+         
+        </ul>    		  
+           
+    </div> <!--#intro-->
+    
+    
+    
+    
+      <div id="first" class="mslide">
+	   		<img src="images/coocha.png" alt="coocha" border="0" >
+ 	
+      </div>
+        
+        
+        
+    
+    <div id="second" class="mslide">
+	   		<img src="images/gagrine.png" alt="gagrine" border="0" usemap="#Map2" id="Image2">
+        	<map name="Map2" id="Image10">
+        	  <area shape="rect" coords="55,584,197,617" href="#" onClick="javascript:window.open('gagrine.html','','width=1024 height=768,scrollbars=yes,resizable=no'); return false">
+        	</map>
+        </div>
+
+
+
+
+		<div id="third" class="mslide">
+	   		<img src="images/cityhall.png" alt="cityhall" border="0" usemap="#Map3" id="Image3">
+        	<map name="Map3" id="Image3">
+        	  <area shape="rect" coords="55,584,141,618" href="#" onClick="javascript:window.open('http://love.seoul.go.kr/safesummer/index.html#sectionM','','width=2000 height=1000,scrollbars=yes,resizable=no'); return false">
+        	</map>
+        </div>
+
+
+
+    
+    	<div id="fourth" class="mslide">
+        <img src="images/project.png" alt="project" border="0" usemap="#Map4" id="Image4">
+		  <map name="Map4" id="Image4">
+			  <area shape="rect" coords="55,614,211,648"  href="#"  onClick="javascript:window.open('http://blog.naver.com/dolphindol/20204773711','','width=2000 height=1000,scrollbars=yes,resizable=no'); return false">
+			  <area shape="rect" coords="223,614,379,648" href="#" onClick="javascript:window.open('http://hongsi.x-y.net/2014_d8/rhj','','width=2000 height=3070,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="433,1026,606,1149" href="#" onClick="javascript:window.open('project_sub3.html','','width=2000 height=1950,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="433,1161,606,1284" href="#" onClick="javascript:window.open('project_o.html','','width=1417 height=1950,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="55,1161,228,1285" href="#" onClick="javascript:window.open('project_sub4.html','','width=2000 height=1950,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="55,1026,228,1149" href="#" onClick="javascript:window.open('project_sub1.html','','width=2000 height=1950,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="244,1026,417,1150" href="#" onClick="javascript:window.open('project_sub2.html','','width=2000 height=1950,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="244,1161,417,1284" href="#" onClick="javascript:window.open('project_sub5.html','','width=2000 height=1950,scrollbars=yes,resizable=no'); return false">
+              
+		  </map>
+        </div> <!--#intro-->
+
+
+
+
+
+		<div id="fifth" class="mslide">
+		  <img src="images/meritz.png" alt="meritz" border="0" usemap="#Map5" id="Image5">
+            <map name="Map5" id="Image5">
+              <area shape="rect" coords="333,1033,606,1314" href="#" onClick="javascript:window.open('main1_o.html','','width=1396 height=782,scrollbars=no,resizable=no'); return false">
+              <area shape="rect" coords="55,1033,328,1314" href="main1.html" onClick="javascript:window.open('main1.html','','width=1371 height=1275,scrollbars=yes,resizable=no'); return false">
+               <area shape="rect" coords="55,573,211,607" href="#" onClick="javascript:window.open('http://blog.naver.com/dolphindol/20205169666','','width=2000 height=1950,scrollbars=yes,resizable=no'); return false">
+              <area shape="rect" coords="223,573,379,607" href="main1.html" onClick="javascript:window.open('main1.html','','width=1371 height=1275,scrollbars=yes,resizable=no'); return false">
+          </map>
+	  </div> <!--#second-->
+
+
+
+
+		<div id="sixth" class="mslide">
+		
+            <img src="images/unicef.png" alt="unicef" border="0" usemap="#Map6" id="Image6">
+            <map name="Map6" id="Image6">
+        	    <area shape="rect" coords="55,603,211,637" href="#" onClick="javascript:window.open('http://blog.naver.com/dolphindol/20205772746','','width=2000 height=1275,scrollbars=yes,resizable=no'); return false">
+                <area shape="rect" coords="223,603,379,637" href="#" onClick="javascript:window.open('main2.html','','width=1400 height=1185,scrollbars=yes,resizable=no'); return false">
+                <area shape="rect" coords="55,1064,328,1344" href="#" onClick="javascript:window.open('main2.html','','width=1400 height=1185,scrollbars=auto,resizable=no'); return false">
+                <area shape="rect" coords="333,1064,606,1343" href="#" onClick="javascript:window.open('main2_o.html','','width=1437 height=936,scrollbars=auto,resizable=no'); return false">
+          </map>
+	  </div>
+      
+          
+      
+
+
+		<div id="seventh" class="mslide">
+   		  <img src="images/onell.png" alt="onell" border="0" usemap="#Map7" id="Image7">
+        	<map name="Map7" id="Image7">
+       	      <area shape="rect" coords="55,584,141,618" href="#" onClick="javascript:window.open('onell_main.html','','width=1400 height=830,scrollbars=yes,resizable=no'); return false"> 
+              <area shape="rect" coords="153,584,239,618" href="#" onClick="javascript:window.open('onell_sub.html','','width=1127 height=1800,scrollbars=yes,resizable=no'); return false">
+              
+               <area shape="rect" coords="250,584,369,618" href="#" onClick="javascript:window.open('onell_o.html','','width=1823 height=1023,scrollbars=yes,resizable=no'); return false">
+        	</map>
+        </div>
+
+
+      
+      
+      <div id="eighth" class="mslide">
+			<img src="images/contest.png" alt="contest" border="0" usemap="#Map8" id="Image8">
+            <map name="Map8" id="Image8">
+       	      <area shape="rect" coords="55,583,211,617" href="#" onClick="javascript:window.open('http://blog.naver.com/dolphindol/20209191474','','width=2000 height=1000,scrollbars=auto,resizable=no'); return false">
+              <area shape="rect" coords="223,583,309,617" href="contest.html" onClick="javascript:window.open('contest.html','','width=900 height=11000,scrollbars=yes,resizable=no'); return false">
+             
+            </map>
+	  </div>
+      
+      
+      
+      
+      
+      <div id="ninth" class="mslide">
+			<img src="images/dvd.png" alt="dvd" border="0" usemap="#Map9" id="Image9">
+            <map name="Map9" id="Image9">
+        	    <area shape="rect" coords="55,603,211,637" href="#" onClick="javascript:window.open('http://blog.naver.com/dolphindol/20204182308','','width=2000 height=1000,scrollbars=yes,resizable=no'); return false">
+                <area shape="rect" coords="333,1015,606,1296" href="#" onClick="javascript:window.open('dvd_o.html','','width=1200 height=1200,scrollbars=yes,resizable=no'); return false">
+                <area shape="rect" coords="55,1015,328,1296" href="dvd.html" onClick="javascript:window.open('dvd.html','','width=2040 height=1044,scrollbars=yes,resizable=no'); return false">
+                <area shape="rect" coords="223,603,309,637" href="dvd.html" onClick="javascript:window.open('dvd.html','','width=2040 height=1044,scrollbars=yes,resizable=no'); return false">
+            </map>
+	  </div>
+      
+      
+      
+      
+      
+      
+         <div id="tenth" class="mslide">
+			<img src="images/namecard.png" alt="namecard" border="0" usemap="#Map10" id="Image10">
+            <map name="Map10" id="Image10">
+        	    <area shape="rect" coords="55,603,211,637" href="#" onClick="javascript:window.open('http://blog.naver.com/dolphindol/20202121086','','width=2000 height=1000,scrollbars=yes,resizable=no'); return false">
+                <area shape="rect" coords="223,603,309,637" href="#" onClick="javascript:window.open('name.html','','width=1395,height=495,scrollbars=no,resizable=no'); return false" onFocus="this.blur()" />
+            </map>
+	  </div>
+      
+      
+
+	    <div id="eleventh" class="mslide">
+			<img src="images/drawing.png" alt="drawing" border="0" usemap="#Map11" id="Image11">
+            <map name="Map11" id="Image11">
+        	   <area shape="circle" coords="279,336,147" href="#" onClick="javascript:window.open('drawing1.html','','width=1000 height=554,scrollbars=no,resizable=no'); return false">
+                <area shape="rect" coords="54,1264,326,1485" href="#" onClick="javascript:window.open('drawing5.html','','width=700 height=473,scrollbars=no,resizable=no'); return false">
+                <area shape="rect" coords="332,1264,605,1485" href="#" onClick="javascript:window.open('drawing6.html','','width=700 height=766,scrollbars=no,resizable=no'); return false">
+                <area shape="rect" coords="426,805,606,1026" href="#" onClick="javascript:window.open('drawing4.html','','width=600 height=917,scrollbars=no,resizable=no'); return false">
+                  <area shape="rect" coords="241,805,421,1026" href="#" onClick="javascript:window.open('drawing3.html','','width=500 height=593,scrollbars=no,resizable=no'); return false">
+                <area shape="rect" coords="55,805,235,1026" href="#" onClick="javascript:window.open('drawing2.html','','width=500 height=633,scrollbars=no,resizable=no'); return false">
+               
+          </map>
+	  </div>
+      
+
+
+
+		
+
+</div>
+
+</body>
+</html>
